@@ -1,0 +1,402 @@
+
+ .container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+ }
+ 
+ .card-container{
+   display: flex;
+   width: 1200px;
+   height: 600px;
+   background-color: #f8f8fc;
+   border-radius: 2px;
+   box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .5);
+ }
+
+ 
+ .header{
+  border-right:  1px solid #ddd;
+  background-image: url(/img/Background2.jpg);
+}
+ 
+
+ .header, .descripcion{
+  padding: 20px;
+  text-align: center ;
+ }
+
+ .header a{
+  position: relative;
+  display: block;
+ }
+
+ .header img{
+  border-radius: 50%;
+  box-shadow: 0 0 0 8px rgba(0, 0, 0, .06);
+  margin: 50px 30px;
+  transition: .2s;
+  width: 200px;
+ }
+
+
+ .header h2{
+  color: white;
+  margin: 10px;
+  font-size: 35px;
+ }
+
+ .header h4{
+  color: white;
+  margin: 10px;
+  font-size: 20px;
+ }
+
+ .descripcion p{
+   margin: 150px 30px;
+   font-size: 27px;
+ }
+
+ .descripcion .social{
+  margin-top: 25px;
+ }
+
+ .descripcion .social{
+  display: inline-block;
+  padding: 0 15px;
+ }
+
+ .social i{
+  font-size: 45px;
+  padding: 5px;
+ }
+
+ @media (max-width: 770px) {
+     .card-container{
+      display: block;
+      width: 500px;
+      height: 700px;
+     }
+
+     .header{
+      padding: 10px 10px 5px 10px;
+      border: none;
+     }
+
+     .descripcion{
+       padding: 5px 5px 5px 5px;
+     }
+
+     .header h4{
+      margin: 0;
+     }
+
+     .descripcion p{
+      font-size: 18px;
+      margin: 0px 0px;
+    }
+
+    .descripcion .social{
+      margin: 0px 0px;
+     }
+
+     .social i{
+      font-size: 40px;
+      padding: 5px;
+      margin: 10px;
+     }
+  }
+
+  @media (max-width: 1074px) {
+    .header{
+      padding: 20px 20px 5px 20px;
+      border: none;
+     }
+
+     .descripcion{
+      padding: 5px 5px 5px 5px;
+    }
+
+     .descripcion p{
+      font-size: auto;
+      margin: 0px 0px;
+    }
+   }
+
+   @media (max-width: 450px) {
+    .card-container{
+      display: block;
+      width: 500px;
+      height: 700px;
+      padding: 5px;
+     }
+
+     .container{
+      margin: 25px;
+      padding-bottom: 40px;
+      margin-bottom: 40px;
+     }
+
+     .header img{
+      margin: 20px 10px;
+     }
+    
+    }
+
+ 
+.tab2{
+    margin: 10px;
+    padding: 5px;
+}
+
+.tab2-skills{
+ margin: 20px;
+ text-align: center;
+}
+
+.tab2-skills img{
+  width: 90px;
+  margin: 10px;
+}
+
+.tab2-container{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 180px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab2-card{
+   width: 100%;
+   margin: 20px;
+   border-radius: 6px;
+   overflow: hidden;
+   background-color: white;
+   box-shadow: 0px 1px 10px rgba(0, 0, 0, .2);
+   cursor: default;
+   transition: all 400ms ease;
+}
+
+.tab2 i{
+  margin-top: 15px;
+  padding: 2px;
+  margin-bottom: 0;
+}
+
+.tab2 hr{
+    height: 3px;
+    width: 30%;
+    background-color: #102937;
+    margin: auto;
+}
+     
+
+.tab2-card:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, .2);
+  transform: translateY(-2%);
+}
+
+.tab2-card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-align: center;
+}
+
+
+.tab2-card .tab2-contenido{
+  padding: 15px;
+  text-align: center;
+}
+
+.tab2-card .tab2-contenido a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  color: #102937;
+  border: 1px solid #102937;
+  border-radius: 4px;
+}
+
+.tab2-contenido a:hover{
+  color: white;
+  background-color: #102937;
+}
+
+@media (max-width: 900px) {
+  .tab2-container{
+    flex-wrap: nowrap;
+  }
+ }
+
+ @media (max-width: 750px) {
+  .tab2-container{
+    flex-wrap: wrap;
+  }
+  }
+
+
+  @media (max-width: 450px) {
+    .tab2-skills img{
+      width: 70px;
+      margin: 10px;
+    }
+   }
+ 
+  .tab3-title {
+    /* Estilos de título h1 */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ .tab3-pdfview {
+    /* Centrado */
+    margin: auto;
+    display: block;
+    /* Tamaño */
+    width: 850px;
+    height: 75vh;
+    /* Mejorar aspecto */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+
+
+ @media (max-width: 900px) {
+  .tab3-pdfview {
+    width: 450px;
+    height: 70vh;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  }
+
+
+  @media (max-width: 450px) {
+    .tab3-pdfview {
+      width: auto;
+      height: 50vh;
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    }
+
+  .form{
+    background-image: url(/img/contact-background.png);
+    background-position-x: -200px;
+    background-position-y: 0px;
+    background-size: cover;
+    width:800px;
+    height:640px;
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);box-sizing:border-box;
+    font-family:'Montserrat',sans-serif;
+    position:relative;
+  }
+
+  .form{
+    font-weight: bold;
+    box-shadow: 8px 8px 8px #000;
+  }
+
+  .form h2{margin:10px 0;
+    padding-bottom:10px;
+    width:180px;
+    color: white;
+    border-bottom:3px solid #f8f8fc;
+  }
+
+  .form input{width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    background:none;
+    outline:none;
+    resize:none;
+    border:0;
+    font-family:'Montserrat',sans-serif;
+    transition:all .3s;
+    border-bottom:2px solid white;
+    color: white;
+  }
+
+  .form input:focus{
+    border-bottom:2px solid #102937;
+  }
+  
+  p:before{
+    content:attr(type);
+    display:block;
+    margin:28px 0 0;
+    font-size:14px;
+    color:white;
+  }
+  
+  button{
+    float:right;
+    padding:8px 12px;
+    margin:8px 0 0;
+    font-family:'Montserrat',sans-serif;
+    border:2px solid white;
+    cursor:pointer;
+    transition:all .3s;
+    background-color: #102937;
+    color: white;
+  }
+
+  .form button:hover{
+    color: #102937;
+    background: white;
+  }
+
+  .form div{
+    content:'Hi';
+    position:absolute;
+    bottom:-15px;
+    right:-20px;
+    background:#102937;
+    color:#fff;width:320px;
+    padding:16px 4px 16px 0;
+    border-radius:6px;
+    font-size:13px;
+    box-shadow:10px 10px 40px -14px #000}
+
+  .form span{margin:0 5px 0 15px}
+
+  .redes i{
+    color: white;
+  }
+
+  .redes a{
+    color: white;
+  }
+
+  @media (max-width: 900px) {
+    .form{
+      width: 470px;
+      height: 440px;
+    }
+ }
+
+ @media (max-width: 450px) {
+  .form{
+    width: 450px;
+    height: 390px;
+    position: unset;
+  }
+
+  .form div{
+    margin-bottom: 20px;
+    background: none;
+    display: none;
+  }
+}
