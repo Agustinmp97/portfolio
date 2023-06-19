@@ -14,8 +14,8 @@ body{
  background-image: url(/img/Background5.jpg);
  background-size: cover;
  background-position-y: 10% ;
+ background-color: white;
 }
-
 
 .home-bar{
     position: fixed;
@@ -90,6 +90,8 @@ nav ul a:hover i:not(.fa-bell){
     
 }
 
+
+
 @media (max-width: 450px ) {
     .nav{
         width: 50vh;
@@ -133,3 +135,35 @@ nav ul a:hover i:not(.fa-bell){
 }
 
 
+#toggle {
+    display: none;
+  }
+
+  .oscuro{
+    background-image: url(/img/Background6.jpg);
+    color: white;
+    transition: all 1.5s ease;
+    background-color: black;
+  }
+
+  .oscuro a{
+    color: white;
+  }
+
+  .oscuro i{
+    color: white;
+  }
+
+  .oscuro figure{
+    background-color: #3F3F3F;
+  }
+
+  .oscuro .tab2-skills{
+    filter: brightness(0) invert(1);
+  }
+
+  .oscuro .descripcion{
+    background-color: #3F3F3F;
+  }
+
+  

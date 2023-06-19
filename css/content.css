@@ -10,7 +10,6 @@
    display: flex;
    width: 1200px;
    height: 600px;
-   background-color: #f8f8fc;
    border-radius: 2px;
    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .5);
  }
@@ -217,14 +216,18 @@
   display: inline-block;
   padding: 10px;
   margin-top: 10px;
-  color: #102937;
+  background-color: #102937;
+  color: white;
   border: 1px solid #102937;
   border-radius: 4px;
+  width: 120px;
+  height: 40px;
 }
 
 .tab2-contenido a:hover{
-  color: white;
-  background-color: #102937;
+  background-color: white;
+  color: #102937;
+  
 }
 
 @media (max-width: 900px) {
@@ -400,3 +403,4 @@
     display: none;
   }
 }
+
