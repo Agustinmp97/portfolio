@@ -135,15 +135,32 @@ nav ul a:hover i:not(.fa-bell){
 }
 
 
-#toggle {
+  #label{
+    cursor: pointer;
+  }
+
+  #toggle {
     display: none;
   }
 
   .oscuro{
     background-image: url(/img/Background6.jpg);
     color: white;
-    transition: all 1.5s ease;
     background-color: black;
+  }
+
+
+  .oscuro .nav{
+    background: rgba( 255, 255, 255, 0 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+
+  .oscuro .body{
+    transition: all 1.5s ease;
   }
 
   .oscuro a{
@@ -154,7 +171,7 @@ nav ul a:hover i:not(.fa-bell){
     color: white;
   }
 
-  .oscuro figure{
+  .oscuro .tab2-card{
     background-color: #3F3F3F;
   }
 
@@ -162,7 +179,7 @@ nav ul a:hover i:not(.fa-bell){
     filter: brightness(0) invert(1);
   }
 
-  .oscuro .descripcion{
+  .oscuro .card-container{
     background-color: #3F3F3F;
   }
 

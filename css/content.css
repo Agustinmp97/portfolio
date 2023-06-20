@@ -12,14 +12,13 @@
    height: 600px;
    border-radius: 2px;
    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, .5);
+   background-color: white;
  }
-
  
  .header{
   border-right:  1px solid #ddd;
   background-image: url(/img/Background2.jpg);
 }
- 
 
  .header, .descripcion{
   padding: 20px;
@@ -101,7 +100,7 @@
      }
 
      .social i{
-      font-size: 40px;
+      font-size: 35px;
       padding: 5px;
       margin: 10px;
      }
@@ -236,7 +235,7 @@
   }
  }
 
- @media (max-width: 750px) {
+ @media (max-width: 770px) {
   .tab2-container{
     flex-wrap: wrap;
   }
@@ -368,7 +367,7 @@
     right:-20px;
     background:#102937;
     color:#fff;width:320px;
-    padding:16px 4px 16px 0;
+    padding:1px 4px 16px 0;
     border-radius:6px;
     font-size:13px;
     box-shadow:10px 10px 40px -14px #000}
